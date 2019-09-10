@@ -22,8 +22,20 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array, a, b)
-  temp = array[a]
-  array[a] = array[b]
-  array[b] = temp
+def swap_elements(array)
+  temp = array[1]
+  array[1] = array[2]
+  array[2] = temp
+end
+
+def reverse_array(array)
+  array.reverse
+end
+
+def kesha_maker(array)
+  res = []
+  array.each do |word|
+    res << (word[2] = "$")
+  end
+  res
 end
