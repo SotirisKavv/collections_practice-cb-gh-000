@@ -63,4 +63,5 @@ def add_s(array)
     end
     i += 1
   end
+  array
 end
