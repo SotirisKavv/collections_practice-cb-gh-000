@@ -49,3 +49,9 @@ def find_a(array)
   end
   res
 end
+
+def sum_array(array)
+  sum = 0
+  array.each do {|num| sum += num}
+  sum
+end
